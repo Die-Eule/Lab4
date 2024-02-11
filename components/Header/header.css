@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: 5%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 72px;
+    margin-left: 96px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #17171B;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+    height: 72px;
+}

@@ -1,0 +1,33 @@
+.char-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: beige;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.char-card img {
+    height: 50px;
+    object-fit: contain;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.char-card-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.char-card-data h3 {
+    font-size: 12px;
+    line-height: 1px;
+}
+
+.char-card-data p {
+    font-size: 10px;
+    line-height: 1px;
+}
